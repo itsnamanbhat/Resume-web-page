@@ -1,0 +1,136 @@
+body{
+    /* background-color: #ECF8F9; */
+    font-family: 'Libre Baskerville', serif;;
+    background-image: url(images/back-2.avif);
+}
+ul{
+    list-style: none;
+}
+.list
+{
+    list-style: circle;
+}
+/* home part */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.home
+{
+    display: flex;
+    margin-top: 15px;
+
+}
+#img1
+{
+    border-radius: 50%;
+    width: 15rem;
+}
+
+.Info
+{
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.p1
+{
+    padding: 0%;
+    margin-bottom: 0%;
+}
+
+
+/* Education styling */
+h2
+{
+    display: inline;
+}
+.container1
+{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+}
+.educat
+{
+     display: grid;
+    grid-template-columns: 230px 730px;
+    gap: 15px;
+
+}
+
+.marks
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #1D267D;
+    
+    
+}
+.eduinfo
+{
+    background-color:#DDE6ED;
+    padding:20px 20px;
+    /* margin-left: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+/* Intrest and skills styling */
+
+.container2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.sub-c
+{
+   
+    height:600px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 230px 730px;
+    grid-template-rows: 250px 200px 100px;
+    gap:25px
+    
+}
+
+.intrest
+{
+    grid-row: span 3;
+    padding:20px 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1D267D;
+    color: white
+}
+
+.same
+{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DDE6ED;
+}
+
+
