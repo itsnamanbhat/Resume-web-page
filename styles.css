@@ -1,7 +1,8 @@
 body{
-    /* background-color: #ECF8F9; */
+    background-color: #ECF8F9;
     font-family: 'Libre Baskerville', serif;;
     background-image: url(images/back-2.avif);
+    
 }
 ul{
     list-style: none;
